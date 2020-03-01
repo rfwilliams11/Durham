@@ -59,6 +59,7 @@ height: 200px; /* only if you want fixed height */
 #maroon-nav:hover{
     font-style: italic;
     text-decoration: none;
+    color: #000000;
 }
 
 #maroon-button{

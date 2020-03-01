@@ -9,17 +9,17 @@
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #000000;
+    border: 1px solid #800000;
     border-radius: 5px;
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     text-align: center;
     color: #FFFFFF;
@@ -28,7 +28,7 @@
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
+    background-color: #FFFFFF;
     color: white;
 }
 
@@ -46,4 +46,28 @@
 width: 100%;
 object-fit: cover;
 height: 200px; /* only if you want fixed height */
+}
+
+#maroon{
+    color: #800000;
+}
+
+#maroon-nav{
+    color: #800000;
+}
+
+#maroon-nav:hover{
+    font-style: italic;
+    text-decoration: none;
+}
+
+#maroon-button{
+    background-color: #800000;
+    border: 1.5px solid #FFFFFF;
+}
+
+#maroon-button:hover{
+    background-color: #FFFFFF;
+    color: #800000;
+    border: 1.5px solid #800000;
 }
